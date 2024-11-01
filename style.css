@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container,.contact_container{
+    margin:10px;
+    padding:10px;
+    font-family: "Young Serif", serif;
+}
+
+.title{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.title__name{
+    font-size: 60px;
+}
+.title__role{
+    margin-top:10px;
+    font-size: 30px;
+}
+.title__contact{
+   background-color: orangered;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   margin-top:10px;
+   display:inline-block;
+   text-decoration:none;
+   color: white;
+}
+.about,.interests,.project,.info{
+    margin: 20px;
+}
+.about .about__desc,.interests .interests__lists,.project .project__lists,.info .copyright__info{
+    margin-top: 10px;
+}
+
+.info
+{
+    background-color: black;
+    color: white;
+    padding:20px;
+
+}
+#linkedin{
+    color:skyblue;
+}
+.interests__lists,.project__lists{
+    list-style-type: none;
+}
+
+.interests{
+    background-color:#6462fd;
+    height:200px;
+    border-radius:10px;
+    padding:20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.project{
+    background-color:#fe7517;
+    height:200px;
+    border-radius:10px;
+    padding:20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.contact_form{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#name,#email,#message,#submit{
+    margin-top: 10px;
+    
+}
+
+#name,#email{
+    border:none;
+    padding: 10px;
+    border-bottom: black solid 1px;
+}
+#message{
+    border:black solid 1px;
+}
+#submit{
+    background-color: orangered;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
